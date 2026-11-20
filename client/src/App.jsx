@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from 'react';
 import './App.css';
 
-const API_URL = 'https://skilltrack-8m6e.onrender.com';
+const API_URL = 'https://skilltrack-8m6e.onrender.com/api';
 
 function getSavedValue(key) {
   try {
