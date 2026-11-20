@@ -21,7 +21,7 @@ app.use('/api/tasks', requireAuth, taskRoutes);
 
 connectDatabase()
   .then(() => {
-    app.listen(port, () => {
+    app.listen(port, '0.0.0.0', () => {
       console.log(`SkillTrack API listening at http://localhost:${port}`);
     });
   })
